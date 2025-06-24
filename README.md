@@ -1,5 +1,5 @@
 # 室內定位系統 - 嵌入式系統設計期末專題
-
+![image](https://github.com/kerry96164/iBeacon-Localization/blob/main/app_layout.png)
 ## 專案簡介
 本專案旨在利用 iBeacon 技術實現室內使用者的即時定位。考量到特定場地配置可能不利於傳統的 Propagation Model-based 演算法，我們決定採用基於 Fingerprinting 的演算法來達成更精準的定位。
 
