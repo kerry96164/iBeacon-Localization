@@ -43,6 +43,6 @@
         其中 $w_{P_i}$ 是每個參考點的權重，其計算方式與 $RSSI$ 差異和距離相關。
 
 ## 環境
-Xcode 15.2
-macOS 13.6.4
-Test in iPad Air 4
+* Xcode 15.2
+* macOS 13.6.4
+* Test in iPad Air 4
