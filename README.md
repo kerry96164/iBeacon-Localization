@@ -1,7 +1,7 @@
 # 室內定位系統 - 嵌入式系統設計期末專題
 ![image](https://github.com/kerry96164/iBeacon-Localization/blob/main/app_layout.png)
 ## 專案簡介
-本專案旨在利用 iBeacon 技術實現室內使用者的即時定位。考量到特定場地配置可能不利於傳統的 Propagation Model-based 演算法，我們決定採用基於 Fingerprinting 的演算法來達成更精準的定位。
+本專案旨在利用 iBeacon 技術實現室內使用者的即時定位。考量到特定場地配置可能不利於傳統的 Propagation Model-based 演算法，我們決定採用基於 Fingerprinting 的演算法來達成更精準的定位。實驗場景可參考Project Competition Deployment2024
 
 ## 動機與目標
 * **動機**: 觀察到在複雜的室內環境中，傳統的定位方法可能面臨訊號干擾、多徑效應等挑戰，導致定位精度下降。iBeacon 作為一種低功耗、高精度的室內定位技術，提供了解決這些問題的潛力。
@@ -40,7 +40,7 @@
     * 公式考慮了 $RSSI$ 與 $\log(d)$ 之間的近似線性關係 ($\Delta RSSI \propto \log d$)，使得越近的參考點權重越高，對最終定位結果的影響越大。
     * 最終位置 $(x, y)$ 由選定類別中所有參考點的加權平均值計算得出。
 
-## 環境
+## 開發環境
 * Xcode 15.2
 * macOS 13.6.4
 * Test in iPad Air 4
